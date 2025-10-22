@@ -52,7 +52,7 @@ async def handle_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # --- اجرای ربات ---
 if __name__ == "__main__":
-    TOKEN = "8234560317:AAE4Qr8kZatQwD-NX2C1TR2vpc73DVu6Rn8"
+    TOKEN = ""
     app = ApplicationBuilder().token(TOKEN).build()
 
     # افزودن همه دستورها
@@ -64,3 +64,4 @@ if __name__ == "__main__":
 
     print("✅ ربات با موفقیت اجرا شد. حالا در تلگرام /start را بفرست.")
     app.run_polling()
+
